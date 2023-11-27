@@ -1,0 +1,29 @@
+.home {
+    padding: 0 5rem;
+    margin-top: 5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+}
+
+.home >.link {
+    flex-grow: 100;
+    flex-basis: 1;
+    font-size: 1.5rem;
+    width: 25%;
+    padding: 4rem;
+    background-color: #f7f7f7;
+    border-radius: 0.2rem;
+    text-align: center;
+    color: #131313;
+    box-shadow: 0.01rem 0.01rem 0.5rem #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

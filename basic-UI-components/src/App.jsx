@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import AllRoutes from './routes/allRoutes'
-import Home from './components/home'
+import Home from './pages/home'
 
 const App = () => {
 
