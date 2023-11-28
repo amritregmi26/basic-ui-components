@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from './header'
 
 export const Footer = () => {
   return (
-    <div>footer</div>
+    <Header heading="Footers" />
   )
 }

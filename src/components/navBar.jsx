@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from './header'
 
 export const NavBar = () => {
   return (
-    <div>navBar</div>
+    <Header heading="Navigations" />
   )
 }

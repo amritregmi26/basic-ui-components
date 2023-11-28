@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Header from '../components/home/header'
+import Header from '../components/header'
 import './styles/style.css'
 
 const Home = () => {
     return (
         <>
-            <Header />
+            <Header heading="UI Components" subheading="UI Components created using React JS and TailwindCSS"/>
             <div className='home'>
                 <Link to="/navBars" className='link'><span>Navbars</span></Link>
                 <Link to="/footers" className='link'><span>Footers</span></Link>

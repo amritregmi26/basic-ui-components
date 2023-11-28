@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from './header'
 
 export const Hero = () => {
   return (
-    <div>Hero</div>
+    <Header heading="Hero-Sections" />
   )
 }

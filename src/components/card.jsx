@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from './header'
 
 export const Card = () => {
   return (
-    <div>Card</div>
+    <Header heading="Cards" />
   )
 }
