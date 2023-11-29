@@ -6,6 +6,7 @@
     position: relative;
     z-index: 1;
     transition: color 0.1s 0.15s ease-in-out;
+    overflow: hidden;
 }
 
 .slide::after
@@ -128,4 +129,53 @@
 .btn-center:hover::after
 {
     transform: scaleX(1);
+}
+
+
+/**********************/
+/**** Leaving Slide ***/
+/**********************/
+
+.btn-leave::after
+{
+    background: var(--secondary);
+    left: unset;
+    right: 0;
+    width: 0;
+}
+
+.btn-leave:hover
+{
+    border: 2px solid var(--secondary);
+    color: white;
+}
+
+.btn-leave:hover::after
+{
+    left: 0;
+    right: unset;
+    width: 100%;
+}
+
+/**********************/
+/**** Grow Button *****/
+/**********************/
+
+.btn-grow::after
+{
+    background: var(--primary);
+    transform: scale(0);
+    transform-origin: center;
+    border-radius: 50%;
+}
+
+.btn-grow:hover
+{
+    border: 2px solid var(--primary);
+    color: white;
+}
+
+.btn-grow:hover::after
+{
+    transform: scale(1.5);
 }
