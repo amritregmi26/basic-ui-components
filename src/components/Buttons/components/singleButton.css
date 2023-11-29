@@ -1,0 +1,131 @@
+/**********************/
+/**** Global slide ****/
+/**********************/
+.slide
+{
+    position: relative;
+    z-index: 1;
+    transition: color 0.1s 0.15s ease-in-out;
+}
+
+.slide::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+
+/**********************/
+/**** Left Sliding ****/
+/**********************/
+
+.btn-left::after
+{
+    background: var(--maroon);
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.btn-left:hover
+{
+    border: 2px solid var(--maroon);
+    color: white;
+}
+
+.btn-left:hover::after
+{
+    transform: scaleX(1);
+}
+
+/**********************/
+/**** Right Sliding ***/
+/**********************/
+
+.btn-right::after
+{
+    background: var(--purple);
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.btn-right:hover
+{
+    border: 2px solid var(--purple);
+    color: white;
+}
+
+.btn-right:hover::after
+{
+    transform: scaleX(1);
+}
+
+/**********************/
+/***** Top Sliding ****/
+/**********************/
+
+.btn-top::after
+{
+    background: var(--green);
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.btn-top:hover
+{
+    border: 2px solid var(--green);
+    color: white;
+}
+
+.btn-top:hover::after
+{
+    transform: scaleY(1);
+}
+
+/**********************/
+/*** Bottom Sliding ***/
+/**********************/
+
+.btn-bottom::after
+{
+    background: var(--yellow);
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+.btn-bottom:hover
+{
+    border: 2px solid var(--yellow);
+    color: white;
+}
+
+.btn-bottom:hover::after
+{
+    transform: scaleY(1);
+}
+
+/**********************/
+/*** Center Sliding ***/
+/**********************/
+
+.btn-center::after
+{
+    background: var(--gray);
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+.btn-center:hover
+{
+    border: 2px solid var(--gray);
+    color: black;
+}
+
+.btn-center:hover::after
+{
+    transform: scaleX(1);
+}

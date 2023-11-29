@@ -4,3 +4,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary: #334b91;
+    --secondary: #c76069;
+    --green: #008a64;
+    --maroon: #8d2d3a;
+    --purple: #66359c;
+    --yellow: #d0a617;
+    --gray: #a9aabc;
+    --dark: #303030;
+}
