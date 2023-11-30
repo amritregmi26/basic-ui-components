@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, Footer, Form, Button, Card, Hero } from '../components'
+import { NavBar, Footer, Form, Button, Card, Hero, Code } from '../components'
 import {Routes, Route} from 'react-router-dom'
 import Home from '../pages/home'
 
@@ -13,6 +13,7 @@ const AllRoutes = () => {
         <Route path="/hero-sections" element={<Hero />}  />
         <Route path="/cards" element={<Card />}  />
         <Route path="/buttons" element={<Button />}  />
+        <Route path='/code/:id' element={<Code />} />
     </Routes>
   )
 }

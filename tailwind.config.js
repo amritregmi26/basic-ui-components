@@ -1,7 +1,7 @@
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,jsx}",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {},
@@ -12,7 +12,7 @@ export default {
       "maroon": "#8d2d3a",
       "purple": "#66359c",
       "yellow": "#d0a617",
-      "gray": "#a9aabc",
+      "gray": "#a0a0a0",
       "dark": "#303030",
       "white": "#ffffff"
     },
@@ -23,7 +23,7 @@ export default {
       "maroon": "#8d2d3a",
       "purple": "#66359c",
       "yellow": "#d0a617",
-      "gray": "#a9aabc",
+      "gray": "#bbbbbb",
       "dark": "#303030"
     }),
     container: {

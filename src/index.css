@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 :root {
     --primary: #334b91;
@@ -12,6 +12,6 @@
     --maroon: #8d2d3a;
     --purple: #66359c;
     --yellow: #d0a617;
-    --gray: #a9aabc;
+    --gray: #bbbbbb;
     --dark: #303030;
 }
