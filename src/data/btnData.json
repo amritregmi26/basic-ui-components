@@ -1,132 +1,122 @@
 [
     {
-        "Rounded-Corner": [
-            {
-                "id": "btnrc-primary",
-                "className": "bg-primary md:grow-0 grow px-8 py-2 rounded text-white",
-                "text": "Primary"
-            },
-            {
-                "id": "btnrc-secondary",
-                "className": "bg-secondary md:grow-0 grow rounded px-8 py-2 text-white",
-                "text": "Secondary"
-            },
-            {
-                "id": "btnrc-yellow",
-                "className": "bg-yellow md:grow-0 grow px-8 py-2 rounded text-dark",
-                "text": "Yellow"
-            },
-            {
-                "id": "btnrc-green",
-                "className": "bg-green md:grow-0 grow rounded px-8 py-2 text-white",
-                "text": "Green"
-            },
-            {
-                "id": "btnrc-maroon",
-                "className": "bg-maroon md:grow-0 grow rounded px-8 py-2 text-white",
-                "text": "Maroon"
-            },
-            {
-                "id": "btnrc-dark",
-                "className": "bg-dark md:grow-0 grow rounded px-8 py-2 text-white",
-                "text": "Dark"
-            },
-            {
-                "id": "btnrc-gray",
-                "className": "bg-gray md:grow-0 grow rounded px-8 py-2 text-dark",
-                "text": "Gray"
-            },
-            {
-                "id": "btnrc-purple",
-                "className": "bg-purple md:grow-0 grow rounded px-8 py-2 text-white",
-                "text": "Purple"
-            }
-        ],
-
-        "Rounded-Pill": [
-            {
-                "id": "btnrp-primary",
-                "className": "bg-primary md:grow-0 grow px-8 py-2 rounded-full text-white",
-                "text": "Primary"
-            },
-            {
-                "id": "btnrp-secondary",
-                "className": "bg-secondary md:grow-0 grow rounded-full px-8 py-2 text-white",
-                "text": "Secondary"
-            },
-            {
-                "id": "btnrp-yellow",
-                "className": "bg-yellow md:grow-0 grow px-8 py-2 rounded-full text-dark",
-                "text": "Yellow"
-            },
-            {
-                "id": "btnrp-green",
-                "className": "bg-green md:grow-0 grow rounded-full px-8 py-2 text-white",
-                "text": "Green"
-            },
-            {
-                "id": "btnrp-maroon",
-                "className": "bg-maroon md:grow-0 grow rounded-full px-8 py-2 text-white",
-                "text": "Maroon"
-            },
-            {
-                "id": "btnrp-dark",
-                "className": "bg-dark md:grow-0 grow rounded-full px-8 py-2 text-white",
-                "text": "Dark"
-            },
-            {
-                "id": "btnrp-gray",
-                "className": "bg-gray md:grow-0 grow rounded-full px-8 py-2 text-dark",
-                "text": "Gray"
-            },
-            {
-                "id": "btnrp-purple",
-                "className": "bg-purple md:grow-0 grow rounded-full px-8 py-2 text-white",
-                "text": "Purple"
-            }
-        ],
-        
-        "On-Hover": [
-            {
-                "id": "btnoh-dark",
-                "className": "hover:bg-dark hover:text-white hover:border-2 hover:border-dark transition duration-500 bg-none md:grow-0 grow rounded px-8 py-2 border-2 text-dark",
-                "text": "Hover"
-            },
-            {
-                "id": "btnoh-maroon",
-                "className": "slide btn-left bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-maroon text-maroon",
-                "text": "Left"
-            },
-            {
-                "id": "btnoh-purple",
-                "className": "slide btn-right bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-purple text-purple",
-                "text": "Right"
-            },
-            {
-                "id": "btnoh-green",
-                "className": "slide btn-top bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-green text-green",
-                "text": "Top"
-            },
-            {
-                "id": "btnoh-yellow",
-                "className": "slide btn-bottom bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-yellow text-yellow",
-                "text": "Bottom"
-            },
-            {
-                "id": "btnoh-gray",
-                "className": "slide btn-center bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-gray text-gray",
-                "text": "Center"
-            },
-            {
-                "id": "btnoh-primary",
-                "className": "slide btn-grow bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-primary text-primary",
-                "text": "Grow"
-            },
-            {
-                "id": "btnoh-secondary",
-                "className": "slide btn-leave bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-secondary text-secondary",
-                "text": "Leave"
-            }
-        ]
+        "id": "btnrc-primary",
+        "className": "bg-primary md:grow-0 grow px-8 py-2 rounded text-white",
+        "text": "Primary"
+    },
+    {
+        "id": "btnrc-secondary",
+        "className": "bg-secondary md:grow-0 grow rounded px-8 py-2 text-white",
+        "text": "Secondary"
+    },
+    {
+        "id": "btnrc-yellow",
+        "className": "bg-yellow md:grow-0 grow px-8 py-2 rounded text-dark",
+        "text": "Yellow"
+    },
+    {
+        "id": "btnrc-green",
+        "className": "bg-green md:grow-0 grow rounded px-8 py-2 text-white",
+        "text": "Green"
+    },
+    {
+        "id": "btnrc-maroon",
+        "className": "bg-maroon md:grow-0 grow rounded px-8 py-2 text-white",
+        "text": "Maroon"
+    },
+    {
+        "id": "btnrc-dark",
+        "className": "bg-dark md:grow-0 grow rounded px-8 py-2 text-white",
+        "text": "Dark"
+    },
+    {
+        "id": "btnrc-gray",
+        "className": "bg-gray md:grow-0 grow rounded px-8 py-2 text-dark",
+        "text": "Gray"
+    },
+    {
+        "id": "btnrc-purple",
+        "className": "bg-purple md:grow-0 grow rounded px-8 py-2 text-white",
+        "text": "Purple"
+    },
+    {
+        "id": "btnrp-primary",
+        "className": "bg-primary md:grow-0 grow px-8 py-2 rounded-full text-white",
+        "text": "Primary"
+    },
+    {
+        "id": "btnrp-secondary",
+        "className": "bg-secondary md:grow-0 grow rounded-full px-8 py-2 text-white",
+        "text": "Secondary"
+    },
+    {
+        "id": "btnrp-yellow",
+        "className": "bg-yellow md:grow-0 grow px-8 py-2 rounded-full text-dark",
+        "text": "Yellow"
+    },
+    {
+        "id": "btnrp-green",
+        "className": "bg-green md:grow-0 grow rounded-full px-8 py-2 text-white",
+        "text": "Green"
+    },
+    {
+        "id": "btnrp-maroon",
+        "className": "bg-maroon md:grow-0 grow rounded-full px-8 py-2 text-white",
+        "text": "Maroon"
+    },
+    {
+        "id": "btnrp-dark",
+        "className": "bg-dark md:grow-0 grow rounded-full px-8 py-2 text-white",
+        "text": "Dark"
+    },
+    {
+        "id": "btnrp-gray",
+        "className": "bg-gray md:grow-0 grow rounded-full px-8 py-2 text-dark",
+        "text": "Gray"
+    },
+    {
+        "id": "btnrp-purple",
+        "className": "bg-purple md:grow-0 grow rounded-full px-8 py-2 text-white",
+        "text": "Purple"
+    },
+    {
+        "id": "btnoh-dark",
+        "className": "hover:bg-dark hover:text-white hover:border-2 hover:border-dark transition duration-500 bg-none md:grow-0 grow rounded px-8 py-2 border-2 text-dark",
+        "text": "Hover"
+    },
+    {
+        "id": "btnoh-maroon",
+        "className": "slide btn-left bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-maroon text-maroon",
+        "text": "Left"
+    },
+    {
+        "id": "btnoh-purple",
+        "className": "slide btn-right bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-purple text-purple",
+        "text": "Right"
+    },
+    {
+        "id": "btnoh-green",
+        "className": "slide btn-top bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-green text-green",
+        "text": "Top"
+    },
+    {
+        "id": "btnoh-yellow",
+        "className": "slide btn-bottom bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-yellow text-yellow",
+        "text": "Bottom"
+    },
+    {
+        "id": "btnoh-gray",
+        "className": "slide btn-center bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-gray text-gray",
+        "text": "Center"
+    },
+    {
+        "id": "btnoh-primary",
+        "className": "slide btn-grow bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-primary text-primary",
+        "text": "Grow"
+    },
+    {
+        "id": "btnoh-secondary",
+        "className": "slide btn-leave bg-none md:grow-0 grow rounded px-8 py-2 border-2 border-secondary text-secondary",
+        "text": "Leave"
     }
 ]
